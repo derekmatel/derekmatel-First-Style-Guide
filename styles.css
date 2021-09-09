@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 10%;
+}
+
+h1 {
+    display:block;
+    text-align: center;
+    font: 'Roboto', sans-serif;
+    padding: 10px;
+    width: stretch;
+    color: black;
+    font-weight: 900;
+}
+h2 {
+  text-align: center;
+  font:'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+h3 {
+    text-align: center;
+    font:'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+.container {
+    border: 2px solid #a2a2a6;
+    padding: 5px;
+    margin: 10px auto;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+}
+.container-font {
+    border: 2px solid #a2a2a6;
+    padding: 5px;
+    margin: 10px auto;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+
+/*----Color Panels----*/
+.color-panel {
+  display: inline-block;
+  width: 25%;
+  padding: 5px;
+  margin: 8px auto;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.color-panel:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+/*----Color Panels Colors----*/
+
+.grey-blue {
+  background-color: #40464D;
+  color: #FFFFFF;
+}
+
+.light-blue {
+   background-color: #BBCFE6;
+    color: #40464D;
+}
+
+.bored-blue {
+     background-color: #ABBBCC;
+    color: #06284F;
+}
+
+.navy-blue {
+  background-color: #06284F;
+  color: #FFFFFF;
+}
+
+.gray {
+    background-color: #838E9C;
+    color: #FFFFFF;
+}
+
+
+/*----Font Panels----*/
+
+.font {
+  display: inline-block;
+  width: 25%;
+  padding: 5px;
+  margin: 8px auto;
+  border-radius: 5px;
+  font-size: 18px;
+  color: black;
+}
+
+.font:hover {
+  border: 1px dotted #838E9C;
+  cursor: pointer;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.heavy {
+  font-weight: 900;
+}
